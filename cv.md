@@ -29,7 +29,6 @@ Counting Duplicates
       let n=0
      for (let i = 0; i < txtLvrCs.length; i++) {
         if (txtLvrCs.includes(txtLvrCs[i], i+1)===true && k.indexOf(txtLvrCs[i])===-1){
-          
           k.push(txtLvrCs[i])
           n++
       }
